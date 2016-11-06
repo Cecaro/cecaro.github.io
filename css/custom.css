@@ -1,0 +1,35 @@
+.full{
+	background: url('../images/background2.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body{
+	background-color: transparent;
+	color: white;
+}
+
+.container .row:first-child{
+	margin-top: 20%;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+	font-size: 4em;
+}
+
+h3{
+	font-family: 'Arimo', sans-serif;
+}
+
+.content-text{
+	text-align: center;
+}
